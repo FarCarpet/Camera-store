@@ -2,31 +2,94 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                             General Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-
+a{
+    color: #d4cbcd;
+}
+a:hover{
+    color: #d0515d;
+    text-decoration: none;
+}
+.nav-topper{
+    margin-top: 5px;
+}
+.site-header{
+    background: #323232d1;
+}
+h1 {
+    text-align: center;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                              Home Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 
-
-
-
       /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                   Home Carousel Styles
        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.carousel-item {
+    height: 40rem;
+    background-color: #777;
+ }
+.carousel-img{
+    background-size: cover;
+    height: 40rem;
+}
+.carousel{
+    margin-top: -56px;
+}
 
-
-
-
-
+.carousel-img-1{
+    background-image: url('../img/index/carousel/carousel-img-1.jpg');
+    background-position: center 60%;
+}
+.carousel-img-2{
+    background-image: url('../img/index/carousel/carousel-img-2.jpg');
+    background-position: center 60%;
+}
+.carousel-img-3{
+    background-image: url('../img/index/carousel/carousel-img-3.jpg');
+    background-position: center 60%;
+}
+.carousel-img-4{
+    background-image: url('../img/index/carousel/carousel-img-4.jpg');
+    background-position: center center;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 20%;
+    height: 0.3em;
+}
+ol.carousel-indicators li.active{
+    background-color: #d0515d;
+}
+ol.carousel-indicators li{
+    background-color: #d4cbcd;
+}
 
 
        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                   Home Featured Styles
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+.card-deck{
+    margin-top: 20px;
+}
+
+.card{
+    min-width: 250px;
+}
+.card-deck .card{
+    margin-bottom: 20px;
+}
+.btn-outline-secondary{
+    background: #d4cbcd;
+    color: #d0515d;
+}
+.btn-outline-secondary:hover{
+    background: #d0515d;
+    color: #d4cbcd;
+}
 
 
 
