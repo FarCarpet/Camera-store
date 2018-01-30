@@ -18,6 +18,9 @@ a:hover{
 h1 {
     text-align: center;
 }
+hr{
+  margin: 3rem 0;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                              Home Styles
@@ -100,9 +103,17 @@ ol.carousel-indicators li{
                                   Home Blog Styles
          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+.image{
+  background: red;
+  height: 500px;
+  width: 500px;
+}
 
-
-
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
 
 
 
@@ -122,7 +133,27 @@ ol.carousel-indicators li{
           /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                       Home Footer Styles
            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+           footer{
+               background-color: #c5dffb;
+               height: auto;
+               padding-top: 50px;
+               font-weight: 800;
+               font-size: 0.8em;
+           }
+           .col{
+               text-align: center;
+           }
+           .col-padding{
+               padding-bottom: 40px;
+           }
+           .footer-padding{
+               padding: 30px;
+           }
+           .check-us-out{
+               padding: 10px;
+               font-size: 1.3em;
+               color: #032548;
+           }
 
 
 
