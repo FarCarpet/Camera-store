@@ -103,10 +103,10 @@ ol.carousel-indicators li{
                                   Home Blog Styles
          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-.image{
-  background: red;
+.map{
   height: 500px;
-  width: 500px;
+  width: 100%;
+  background-position: center;
 }
 
 @media (min-width: 62em) {
@@ -114,7 +114,6 @@ ol.carousel-indicators li{
     margin-top: 7rem;
   }
 }
-
 
 
 
@@ -134,7 +133,7 @@ ol.carousel-indicators li{
                                       Home Footer Styles
            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
            footer{
-               background-color: #c5dffb;
+               background-color: #575757;
                height: auto;
                padding-top: 50px;
                font-weight: 800;
