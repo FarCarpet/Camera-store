@@ -21,6 +21,10 @@ h1 {
 hr{
   margin: 3rem 0;
 }
+.jumbotron{
+    height: 40rem;
+    margin-top: -56px;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                              Home Styles
@@ -168,6 +172,13 @@ ol.carousel-indicators li{
        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                    Product Hero Styles
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.product-jumbo{
+    background-image: url(../img/index/product/product-jumbo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
 
 
 
@@ -194,18 +205,29 @@ ol.carousel-indicators li{
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                                Contact Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.contact-jumbo{
+    background-image: url(../img/index/contact/contact-jumbo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                                About Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
+.about-jumbo{
+    background-image: url(../img/index/about/about-jumbo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                                Contact Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 
 
 
