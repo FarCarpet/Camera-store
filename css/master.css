@@ -228,6 +228,12 @@ ol.carousel-indicators li{
                                Contact Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+.employee{
+    height: 30rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
