@@ -13,7 +13,7 @@ a:hover{
     margin-top: 5px;
 }
 .site-header{
-    background: #323232d1;
+    background: #323232;
 }
 h1 {
     text-align: center;
@@ -23,7 +23,6 @@ hr{
 }
 .jumbotron{
     height: 40rem;
-    margin-top: -56px;
 }
 
 footer{
@@ -51,6 +50,12 @@ footer{
     color: #d4cbcd;
     font-weight: bold;
 }
+.color{
+    color: #d4cbcd;
+}
+.color:hover{
+    color: #d0515d;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                              Home Styles
@@ -68,10 +73,6 @@ footer{
     background-size: cover;
     height: 40rem;
 }
-.carousel{
-    margin-top: -56px;
-}
-
 .carousel-img-1{
     background-image: url('../img/index/carousel/carousel-img-1.jpg');
     background-position: center 60%;
@@ -159,27 +160,27 @@ ol.carousel-indicators li{
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                               About Styles
+                               Blog Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.about-jumbo{
-    background-image: url(../img/index/about/about-jumbo.jpg);
+.blog-jumbo{
+    background-image: url(../img/index/blog/blog-jumbo.jpg);
     background-size: cover;
     background-position: center center;
 }
-.about-image-1{
-    background-image: url(../img/index/about/about.jpg);
+.blog-image-1{
+    background-image: url(../img/index/blog/blog-image-1.jpg);
     height: 300px;
     background-size: cover;
     background-position: center center;
 }
-.about-image-2{
-    background-image: url(../img/index/about/beginnings.jpg);
+.blog-image-2{
+    background-image: url(../img/index/blog/blog-image-2.jpg);
     height: 300px;
     background-size: cover;
     background-position: center center;
 }
-.about-image-3{
-    background-image: url(../img/index/about/future.jpg);
+.blog-image-3{
+    background-image: url(../img/index/blog/blog-image-3.jpg);
     height: 300px;
     background-size: cover;
     background-position: center center;
