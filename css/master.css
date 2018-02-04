@@ -26,6 +26,32 @@ hr{
     margin-top: -56px;
 }
 
+footer{
+    background-color: #575757;
+    height: auto;
+    padding-top: 50px;
+    font-weight: 800;
+    font-size: 0.8em;
+   }
+.col{
+    text-align: center;
+    }
+.col-padding{
+    padding-bottom: 40px;
+    }
+.footer-padding{
+    padding: 30px;
+   }
+.check-us-out{
+    padding: 10px;
+    font-size: 1.3em;
+    color: #032548;
+    }
+.jumbotron{
+    color: #d4cbcd;
+    font-weight: bold;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                              Home Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -120,97 +146,15 @@ ol.carousel-indicators li{
 }
 
 
-
-
-         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                     Home Location Styles
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
-
-
-
-
-
-
-          /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                      Home Footer Styles
-           - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-           footer{
-               background-color: #575757;
-               height: auto;
-               padding-top: 50px;
-               font-weight: 800;
-               font-size: 0.8em;
-           }
-           .col{
-               text-align: center;
-           }
-           .col-padding{
-               padding-bottom: 40px;
-           }
-           .footer-padding{
-               padding: 30px;
-           }
-           .check-us-out{
-               padding: 10px;
-               font-size: 1.3em;
-               color: #032548;
-           }
-
-
-
-
-
-
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                               Product Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-       /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                   Product Hero Styles
-        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .product-jumbo{
     background-image: url(../img/index/product/product-jumbo.jpg);
     background-size: cover;
     background-position: center center;
 }
-
-
-
-
-
-
-
-
-
-        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                   Product carousel Styles
-         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
-
-
-
-           /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                       Product Footer Styles
-            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
-
-
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                               Contact Styles
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.contact-jumbo{
-    background-image: url(../img/index/contact/contact-jumbo.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
 
 
 
@@ -222,29 +166,88 @@ ol.carousel-indicators li{
     background-size: cover;
     background-position: center center;
 }
+.about-image-1{
+    background-image: url(../img/index/about/about.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.about-image-2{
+    background-image: url(../img/index/about/beginnings.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.about-image-3{
+    background-image: url(../img/index/about/future.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.nav-link {
+    background-color: #d4cbcd;
+    color: #d0515d;
+    margin-right: 5px;
+}
+.nav-link:hover {
+    background-color: #d0515d;
+    color: #d4cbcd;
+    margin-right: 5px;
+}
 
+.nav-item .active {
+    background: red;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                                Contact Styles
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
+.contact-jumbo{
+    background-image: url(../img/index/contact/contact-jumbo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #d4cbcd;
+    font-weight: bold;
+}
 .employee{
-    height: 30rem;
-    width: 100%;
     background-size: cover;
     background-position: center;
 }
 
+.employ-heading{
+    margin-top: 3rem;
+}
+.employ-social{
+    margin: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.employ-contact-1{
+    padding: 10px;
+    background: #d6a4af;
+}
+.employ-contact-2{
+    padding: 10px;
+    background: #a4bdd6;
+}
+.employ-contact-3{
+    padding: 10px;
+    background: #b5d6a4;
+}
+.employ-contact{
+        color: #575757;
+}
+.employ-contact:hover{
+    color: #d0515d;
+}
+.check-out{
+    text-align: center;
+}
 
-
-
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-                               Contact Styles
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-
-
+.jumbo-center{
+    text-align: center;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
